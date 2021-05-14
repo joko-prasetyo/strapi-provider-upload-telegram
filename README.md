@@ -4,7 +4,7 @@ A simplistic telegram upload provider for strapi.
 
 **Usage**
 
-```json
+```
 ./config/plugins.js
 module.exports = ({ env }) => ({
   upload: {
