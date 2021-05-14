@@ -21,7 +21,8 @@
   "keywords": [
     "upload",
     "telegram",
-    "provider"
+    "provider",
+    "strapi"
   ],
   "maintainers": [
     {
