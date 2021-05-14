@@ -2,11 +2,12 @@
 
 A simplistic telegram upload provider for strapi.
 
-**Usage**
+**Path**
 ```
 ./config/plugins.js
 ```
 
+**Usage**
 ```
 module.exports = ({ env }) => ({
   upload: {
@@ -14,6 +15,7 @@ module.exports = ({ env }) => ({
     providerOptions: {
       token: <YOUR TELEGRAM BOT TOKEN>,
       userId: <YOUR TELEGRAM USER ID>,
+      disableNotification: boolean
     },
   },
 });
