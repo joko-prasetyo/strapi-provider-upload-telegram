@@ -16,4 +16,4 @@ module.exports = ({ env }) => ({
   },
 });
 ```
-You can use [@BotFather] (https://t.me/BotFather) for generating telegram token and user id by using this [bot] (https://t.me/userinfobot).
+You can use [@BotFather](https://t.me/BotFather) for generating telegram token and user id by using this [bot](https://t.me/userinfobot).
