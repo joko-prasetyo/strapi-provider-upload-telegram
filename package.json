@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-telegram",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "strapi-provider-upload-telegram",
   "main": "index.js",
   "strapi": {
@@ -11,12 +11,29 @@
   },
   "author": {
     "email": "jokoprasetyo.user@gmail.com",
-    "name": "Joko Prasetyo",
+    "name": "joko-prasetyo",
     "url": "https://github.com/joko-prasetyo"
   },
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joko-prasetyo/strapi-provider-upload-telegram.git"
+  },
+  "keywords": [
+    "upload",
+    "telegram",
+    "provider"
+  ],
+  "maintainers": [
+    {
+      "name": "joko-prasetyo",
+      "email": "jokoprasetyo.user@gmail.com",
+      "url": "https://github.com/joko-prasetyo"
+    }
+  ],
+  "license": "MIT",
   "dependencies": {
     "node-telegram-bot-api": "^0.53.0",
     "tinyurl": "^1.1.7"
-  }
+  },
+  "homepage": "https://github.com/joko-prasetyo/strapi-provider-upload-telegram#readme"
 }
