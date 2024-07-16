@@ -1,6 +1,8 @@
 process.env.NTBA_FIX_319 = 1;
+
 const TelegramBot = require("node-telegram-bot-api");
-const TinyURL = require("tinyurl");
+// const TinyURL = require("node-url-shortener");
+
 module.exports = {
   init(providerOptions) {
     const { userId, token, disableNotification } = providerOptions;
@@ -12,9 +14,9 @@ module.exports = {
           disable_notification: disableNotification,
         });
         const fileUrl = await bot.getFileLink(result.document.file_id);
-        const shortenUrl = await TinyURL.shorten(fileUrl);
-        file.url = shortenUrl;
-        file.previewUrl = shortenUrl;
+        // const shortenUrl = await TinyURL.short(fileUrl);
+        file.url = fileUrl;
+        file.previewUrl = fileUrl;
         file.alternativeText = result.message_id.toString();
         return file;
       },
